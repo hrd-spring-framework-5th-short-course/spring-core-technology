@@ -12,7 +12,7 @@ public class BeanConfig {
         return new Circle();
     }
 
-    @Bean
+    @Bean(name = "triangle_bean")
     public Triangle triangle() {
         return new Triangle();
     }
